@@ -9,23 +9,25 @@ layout: default
 
 <!-- {% assign currcoll = site.collections | where:"label", page.info_collection %} -->
 {% for curcoll in site.collections %}
-{{ curcoll.label}}
-{{ page.info_collection}}
+  {{ curcoll.label}}
+  {{ page.info_collection}}
 
-{% if curcoll.label==page.info_collection %}
-{% for item in currcoll.docs %}
-    {% capture id %}{{ item.id }}{% endcapture %}
-    {% unless id contains "index" %}
+  {% if curcoll.label==page.info_collection %}
+    {% for item in currcoll.docs %}
+      {% capture id %}{{ item.id }}{% endcapture %}
+      {% unless id contains "index" %}
 
-        <h2><a href="{{ item.url | absolute_url }}">
-           {{item.title}}</a> </h2>
+        <h2>
+          <a href="{{ item.url | absolute_url }}">
+           {{item.title}}
+          </a>
+        </h2>
 
-         <article class="">
-
-        {{ item.content | markdownify}}
-
+        <article class="">
+          {{ item.content | markdownify}}
         </article>
-    {% endunless %}
-  {% endfor %}
+      {% endunless %}
+    {% endfor %}
+  {% endif %}
 {% endfor %}
 </div>
