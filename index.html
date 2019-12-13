@@ -12,7 +12,7 @@ title: Home
     {% for item in coll.docs %}
     <!-- <li> -->
       <h3 class="post-title">
-        <a href="{{ item.url }}">
+        <a href="{{ item.url | absolute_url  }}">
           {{ item.title }}
         </a>
       </h3>
