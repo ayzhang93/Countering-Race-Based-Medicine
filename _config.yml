@@ -10,7 +10,7 @@ relative_permalinks: true
 title:            "Countering Race-Based Medicine"
 tagline:          "A Practical Guide"
 description:      "Race, a social construct, is problematically biologicized in medicine...more description here"
-url:              http://hyde.getpoole.com
+#url:              
 baseurl:          /
 
 author:
@@ -23,4 +23,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:          https://github.com/ayzhang93/counteringracebasedmed/
