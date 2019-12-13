@@ -7,9 +7,9 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Countering Race-Based Medicine
-tagline:          A Practical Guide
-description:      Race, a social construct, is problematically biologicized in medicine. 
+title:            "Countering Race-Based Medicine"
+tagline:          "A Practical Guide"
+description:      "Race, a social construct, is problematically biologicized in medicine...more description here"
 url:              http://hyde.getpoole.com
 baseurl:          /
 
