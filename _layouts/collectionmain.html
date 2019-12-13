@@ -8,7 +8,7 @@ layout: default
 </div>
 
 
-{% assign currcoll = site.documents | where:"collection", page.name %}
+{% assign currcoll = site.documents | where:"collection", page.info_collection %}
 {% for item in currcoll %}
     {% capture id %}{{ item.id }}{% endcapture %}
     {% unless id contains "index" %}
