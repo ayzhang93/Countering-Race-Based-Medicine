@@ -13,7 +13,7 @@ layout: default
   {{ page.info_collection}}
 
   {% if curcoll.label==page.info_collection %} -->
-    {% for item in currcoll.docs %}
+    {% for item in currcoll %}
 
         <h2>
           <a href="{{ item.url | absolute_url }}">
