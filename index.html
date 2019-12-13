@@ -6,7 +6,7 @@ title: Home
 
 {% for coll in site.collections %}
   {% if coll.info %}
-  <h1> {{coll.name}} </h1>
+  <h1> {{coll.name}}  {{col.label}}</h1>
   <div class="posts">
     <!-- <ul> -->
     {% for item in coll.docs %}
@@ -62,7 +62,7 @@ title: Home
 
 
 <!-- Just in case -->
-<!-- 
+<!--
 <h1> <a href='definitions/'>{{site.definitions.name}}</a> </h1>
 <div class="posts">
   {% for def in site.definitions %}
