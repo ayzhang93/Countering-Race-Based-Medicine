@@ -60,6 +60,23 @@ title: Home
   {% endfor %}
 </div>
 
+
+{% for coll in site.collections %}
+  <h1> {{coll.name}} </h1>
+  <div class="posts">
+    {% for item in coll %}
+    <div class="post">
+      <h3 class="post-title">
+        <a href="{{ item.url }}">
+          {{ item.title }}
+        </a>
+      </h3>
+
+    </div>
+    {% endfor %}
+  </div>
+{% endfor %}
+
 <hr>
 
 <div class="posts">
