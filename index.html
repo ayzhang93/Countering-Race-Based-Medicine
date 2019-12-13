@@ -4,6 +4,59 @@ title: Home
 ---
 
 <div class="posts">
+  {% for def in definitions %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ def.url }}">
+        {{ def.title }}
+      </a>
+    </h1>
+
+  </div>
+  {% endfor %}
+</div>
+
+<div class="posts">
+  {% for cond in conditions %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ cond.url }}">
+        {{ cond.title }}
+      </a>
+    </h1>
+
+  </div>
+  {% endfor %}
+</div>
+
+<div class="posts">
+  {% for med in medications %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ med.url }}">
+        {{ med.title }}
+      </a>
+    </h1>
+
+  </div>
+  {% endfor %}
+</div>
+
+<div class="posts">
+  {% for calc in calculators %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ calc.url }}">
+        {{ calc.title }}
+      </a>
+    </h1>
+
+  </div>
+  {% endfor %}
+</div>
+
+
+<div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">

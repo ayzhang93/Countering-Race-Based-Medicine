@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  {{ content }}
+</div>
+
+
+{% assign currcoll = site.documents | where:"collection", page.name %}
+{% for item in currcoll %}
+    {% capture id %}{{ item.id }}{% endcapture %}
+    {% unless id contains "index" %}
+
+        <h2><a href="{{ item.url | absolute_url }}">
+           {{item.title}}</a> </h2>
+
+         <article class="">
+
+        {{ item.content | markdownify}}
+
+        </article>
+
+
+
+    </section>
+    {% endunless %}
+  {% endfor %}
