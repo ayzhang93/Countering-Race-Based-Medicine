@@ -4,7 +4,7 @@ title: Home
 ---
 
 
-<h1> site.definitions.label </h1>
+<h1> {{site.definitions.label}} </h1>
 <div class="posts">
   {% for def in site.definitions %}
   <div class="post">
@@ -18,7 +18,7 @@ title: Home
   {% endfor %}
 </div>
 
-<h1> site.conditions.label</h1>
+<h1> {{site.conditions.label}}</h1>
 <div class="posts">
   {% for cond in site.conditions %}
   <div class="post">
@@ -32,7 +32,7 @@ title: Home
   {% endfor %}
 </div>
 
-<h1> site.medications.label </h1>
+<h1> {{site.medications.label}} </h1>
 <div class="posts">
   {% for med in site.medications %}
   <div class="post">
@@ -46,7 +46,7 @@ title: Home
   {% endfor %}
 </div>
 
-<h1> site.calculators.label </h1>
+<h1> {{site.calculators.label}} </h1>
 <div class="posts">
   {% for calc in site.calculators %}
   <div class="post">
