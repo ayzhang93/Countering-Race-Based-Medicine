@@ -5,11 +5,11 @@ layout: default
 <div class="page">
   <h1 class="page-title">{{ page.title }}</h1>
   {{ content }}
-</div>
 
 
-{% assign currcoll = site.documents | where:"collection", page.info_collection %}
-{% for item in currcoll %}
+
+{% assign currcoll = site.collections | where:"label", page.info_collection %}
+{% for item in currcoll.docs %}
     {% capture id %}{{ item.id }}{% endcapture %}
     {% unless id contains "index" %}
 
@@ -21,9 +21,6 @@ layout: default
         {{ item.content | markdownify}}
 
         </article>
-
-
-
-    </section>
     {% endunless %}
   {% endfor %}
+</div>
