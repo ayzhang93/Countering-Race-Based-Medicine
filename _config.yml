@@ -22,16 +22,16 @@ paginate:         5
 collections:
   calculators:
     output: true
-    label: "Calculators and Adjustments"
+    name: "Calculators and Adjustments"
   conditions:
     output: true
-    label: "Conditions"
+    name: "Conditions"
   definitions:
     output: true
-    label: "Introduction & Definitions"
+    name: "Introduction & Definitions"
   medications:
     output: true
-    label: "Medications"
+    name: "Medications"
 
 
 # Custom vars
