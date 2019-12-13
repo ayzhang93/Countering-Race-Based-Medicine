@@ -19,21 +19,21 @@ author:
 paginate:         5
 
 collections:
-  calculators:
+  definitions:
     output: true
-    name: "Calculators and Adjustments"
+    name: "Introduction & Definitions"
     info: true
   conditions:
     output: true
     name: "Conditions"
     info: true
-  definitions:
-    output: true
-    name: "Introduction & Definitions"
-    info: true
   medications:
     output: true
     name: "Medications"
+    info: true
+  calculators:
+    output: true
+    name: "Calculators and Adjustments"
     info: true
 
 
