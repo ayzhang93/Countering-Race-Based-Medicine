@@ -22,15 +22,19 @@ collections:
   calculators:
     output: true
     name: "Calculators and Adjustments"
+    info: true
   conditions:
     output: true
     name: "Conditions"
+    info: true
   definitions:
     output: true
     name: "Introduction & Definitions"
+    info: true
   medications:
     output: true
     name: "Medications"
+    info: true
 
 
 # Custom vars

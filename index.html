@@ -62,9 +62,10 @@ title: Home
 
 
 {% for coll in site.collections %}
+  {% if col.info %}
   <h1> {{coll.name}} </h1>
   <div class="posts">
-    {% for item in coll %}
+    {% for item in coll.docs %}
     <div class="post">
       <h3 class="post-title">
         <a href="{{ item.url }}">
@@ -75,6 +76,7 @@ title: Home
     </div>
     {% endfor %}
   </div>
+  {% endif %}
 {% endfor %}
 
 <hr>
