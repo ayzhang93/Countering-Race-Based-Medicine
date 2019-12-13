@@ -5,9 +5,19 @@
 ## Conditions
 
 ## Medications
+### Bidil
 
 ## Algorithms
+### PFT
 
+lung function adjustment
+
+### GFR
+
+kidney function adj
+
+### FRAX
+bone density adj
 ## History of Systems
 
 You can use the [editor on GitHub](https://github.com/ayzhang93/Countering-Race-Based-Medicine/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
