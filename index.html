@@ -65,16 +65,17 @@ title: Home
   {% if coll.info %}
   <h1> {{coll.name}} </h1>
   <div class="posts">
+    <!-- <ul> -->
     {% for item in coll.docs %}
-    <div class="post">
+    <!-- <li> -->
       <h3 class="post-title">
         <a href="{{ item.url }}">
           {{ item.title }}
         </a>
       </h3>
-
-    </div>
+    <!-- </li> -->
     {% endfor %}
+  <!-- </ul> -->
   </div>
   {% endif %}
 {% endfor %}
