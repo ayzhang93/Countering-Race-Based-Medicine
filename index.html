@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="posts">
-  {% for def in definitions %}
+  {% for def in site.definitions %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ def.url }}">
@@ -17,7 +17,7 @@ title: Home
 </div>
 
 <div class="posts">
-  {% for cond in conditions %}
+  {% for cond in site.conditions %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ cond.url }}">
@@ -30,7 +30,7 @@ title: Home
 </div>
 
 <div class="posts">
-  {% for med in medications %}
+  {% for med in site.medications %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ med.url }}">
@@ -43,7 +43,7 @@ title: Home
 </div>
 
 <div class="posts">
-  {% for calc in calculators %}
+  {% for calc in site.calculators %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ calc.url }}">
