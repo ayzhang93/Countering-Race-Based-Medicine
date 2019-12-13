@@ -3,8 +3,8 @@ layout: default
 title: Home
 ---
 
-
-{% for coll in site.collections %}
+{% assign orderedcoll = site.collections | sort: "order"%}
+{% for coll in orderedcoll %}
   {% if coll.info %}
   <h1> {{coll.name}}  {{coll.label}}</h1>
   <div class="posts">

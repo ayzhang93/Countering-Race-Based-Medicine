@@ -23,18 +23,22 @@ collections:
     output: true
     name: "Introduction & Definitions"
     info: true
+    order: 1
   conditions:
     output: true
     name: "Conditions"
     info: true
+    order: 2
   medications:
     output: true
     name: "Medications"
     info: true
+    order: 3
   calculators:
     output: true
     name: "Calculators and Adjustments"
     info: true
+    order: 4
 
 
 # Custom vars
