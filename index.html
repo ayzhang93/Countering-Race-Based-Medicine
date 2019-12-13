@@ -6,7 +6,7 @@ title: Home
 {% assign orderedcoll = site.collections | sort: "order"%}
 {% for coll in orderedcoll %}
   {% if coll.info %}
-  <h1> {{coll.name}}  {{coll.label}}</h1>
+  <h1> {{coll.name}}  </h1>
   <div class="posts">
     <!-- <ul> -->
     {% for item in coll.docs %}
