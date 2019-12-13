@@ -10,14 +10,25 @@ permalink:        pretty
 title:            "Countering Race-Based Medicine"
 tagline:          "A Practical Guide"
 description:      "Race, a social construct, is problematically biologicized in medicine...more description here"
-#url:              
+url:
 baseurl:          /
 
 author:
   name:           "Medical students nationwide"
-  url:            
+  url:
 
 paginate:         5
+
+collections:
+  calculators:
+    output: true
+  conditions:
+    output: true
+  definitions:
+    output: true
+  medications:
+    output: true
+
 
 # Custom vars
 version:          2.1.0
