@@ -1,12 +1,12 @@
 # Countering Race-Based Medicine: A Practical Guide
 
-##Intro & Definitions
+## Intro & Definitions
 
-##Conditions
+## Conditions
 
-##Medications
+## Medications
 
-##Algorithms
+## Algorithms
 
 You can use the [editor on GitHub](https://github.com/ayzhang93/Countering-Race-Based-Medicine/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
