@@ -7,15 +7,13 @@ layout: default
   {{ content }}
 
 
-<!-- {% assign currcoll = site.collections | where:"label", page.info_collection %} -->
-{% for curcoll in site.collections %}
+{% assign currcoll = site.documents | where:"collection", page.info_collection %}
+<!-- {% for curcoll in site.collections %}
   {{ curcoll.label}}
   {{ page.info_collection}}
 
-  {% if curcoll.label==page.info_collection %}
+  {% if curcoll.label==page.info_collection %} -->
     {% for item in currcoll.docs %}
-      {% capture id %}{{ item.id }}{% endcapture %}
-      {% unless id contains "index" %}
 
         <h2>
           <a href="{{ item.url | absolute_url }}">
@@ -28,6 +26,6 @@ layout: default
         </article>
       {% endunless %}
     {% endfor %}
-  {% endif %}
-{% endfor %}
+  <!-- {% endif %}
+{% endfor %} -->
 </div>
