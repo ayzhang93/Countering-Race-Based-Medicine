@@ -7,7 +7,7 @@ PICTURE OF SPIROMETER HERE
 
 ## Clinical Uses
 
-**From UpToDate, ["Selecting reference values for pulmonary function tests"] (https://www.uptodate.com/contents/selecting-reference-values-for-pulmonary-function-tests?search=spirometry%20race&source=search_result&selectedTitle=2~150&usage_type=default&display_rank=2#H5):**
+**From UpToDate, ["Selecting reference values for pulmonary function tests"](https://www.uptodate.com/contents/selecting-reference-values-for-pulmonary-function-tests?search=spirometry%20race&source=search_result&selectedTitle=2~150&usage_type=default&display_rank=2#H5):**
 
 Race/ethnicity — Race/ethnicity can affect the normal values for pulmonary function tests (PFTs) although determination of race/ethnicity in an individual patient can be complicated; patients may be of mixed heritage and may not always know their exact racial/ethnic background.
 
@@ -21,7 +21,7 @@ Predicted values for static lung volumes (eg, total lung capacity [TLC], functio
 
 ## Background
 
-**Dorothy Roberts, ["What's Race Got To Do With Medicine?" TEDMED Talk, NPR Transcript.] (https://www.npr.org/transcripts/514150399)**:
+**Dorothy Roberts, ["What's Race Got To Do With Medicine?" TEDMED Talk, NPR Transcript.](https://www.npr.org/transcripts/514150399)**:
 
 "...many doctors in the United States still use an updated version of a diagnostic tool that was developed by a physician during the slavery era, a diagnostic tool that is tightly linked to justifications for slavery.
 
