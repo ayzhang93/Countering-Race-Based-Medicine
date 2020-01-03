@@ -3,7 +3,7 @@ layout: post
 title: Fracture Risk Assessment (FRAX)
 ---
 
-## Clinical Uses
+### Clinical Uses
 
 Guidelines explaining FRAX on databases like UpToDate routinely mention race/ethnicity, sometimes conflated with each other, including but not limited to:
 
@@ -21,7 +21,7 @@ UpToDate, ["Osteoporotic fracture risk assessment"](https://www.uptodate.com/con
 
 Limitations — FRAX is a useful clinical tool for assessment of fracture risk. As with all clinical tools, however, there are some limitations. Limitations include lack of extensive validation in treated patients, limitation to four ethnicities (Caucasian, Black, Hispanic, Asian) in the United States, uncertainty regarding the range of error with fracture risk, and lack of validation with BMD measurements by technologies other than DXA.
 
-## Background
+### Background
 
 The data for the U.S. model for FRAX comes from this study. The data was gathered from a single county in Minnesota from 1989 to 1991, where over 90% of resident identified as non-Hispanic whites:
 
@@ -39,7 +39,7 @@ From the limitations section:
 
 Lauderdale, D. S., Jacobsen, S. J., Furner, S. E., Levy, P. S., Brody, J. A., & Goldberg, J. (1998). Hip fracture incidence among elderly Hispanics. American Journal of Public Health, 88(8), 1245–1247. doi: 10.2105/ajph.88.8.1245 ["Link to article"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1508310/pdf/amjph00020-0103.pdf)
 
-## Clinical Implications
+### Clinical Implications
 
 "Significantly fewer African-American than white women were referred for a DXA scan (OR 0.39%, 95% confidence interval (CI): 0.22 to 0.68). Physicians were also less likely to mention consideration of osteoporosis in medical records (0.27, 0.15 to 0.48) and to recommend calcium and vitamin D supplementation for this population (0.21, 0.11 to 0.37). If referred, African-American women had comparable DXA completion rates when compared with white women. No physician characteristics were significantly associated with DXA referral patterns."
 
