@@ -3,7 +3,7 @@ layout: post
 title: Fracture Risk Assessment (FRAX)
 ---
 ![Image of FRAX calculator](https://github.com/ayzhang93/counteringracebasedmed/blob/master/frax.jpg)
-["Link to FRAX calculator"](https://www.sheffield.ac.uk/FRAX/tool.aspx?country=9)
+[Link to FRAX calculator](https://www.sheffield.ac.uk/FRAX/tool.aspx?country=9)
 
 ### Clinical Uses
 
